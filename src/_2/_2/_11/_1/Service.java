@@ -1,0 +1,22 @@
+package _2._2._11._1;
+
+public class Service {
+	synchronized public void methodA() {
+		System.out.println("methodA begin");
+
+		boolean isContinueRun = true;
+
+		while (isContinueRun) {
+
+		}
+
+		System.out.println("methodA end");
+	}
+
+	synchronized public void methodB() {
+		System.out.println("methodB begin");
+
+		System.out.println("methodB end");
+	}
+
+}
