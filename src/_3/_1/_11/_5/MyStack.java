@@ -1,11 +1,11 @@
-package _3._1._11._4;
+package _3._1._11._5;
 
 import java.util.ArrayList;
 import java.util.List;
 
 /**
  * 本示例是使生产者想堆栈List对象中放入数据，使消费者从List堆栈中取出数据。<br>
- * List最大容量是1，实验环境只有一个生产者和一个消费者。
+ * List最大容量是1
  * 
  * @date 2016年8月24日 下午8:01:15
  */
